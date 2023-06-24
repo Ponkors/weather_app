@@ -17,3 +17,15 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Hubballi-Regular
+      fonts:
+        - asset: assets/fonts/Hubballi-Regular.ttf
+    - family: MavenPro-Regular
+      fonts:
+        - asset: assets/fonts/MavenPro-Regular.ttf
+  
+  assets: 
+    - assets/images/
+    - assets/weather/
+    - assets/icons/
