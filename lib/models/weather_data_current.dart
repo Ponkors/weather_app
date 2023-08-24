@@ -8,6 +8,7 @@ class Weather {
   var temp;
   var wind;
   var humidity;
+  var clouds;
   var windDir;
   var gust;
   var uv;
@@ -22,6 +23,7 @@ class Weather {
     required this.temp,
     required this.wind,
     required this.humidity,
+    required this.clouds,
     required this.windDir,
     required this.gust,
     required this.uv,
@@ -37,6 +39,7 @@ class Weather {
     temp = json['current']['temp_c'];
     wind = json['current']['wind_kph'];
     humidity = json['current']['humidity'];
+    clouds = json['current']['clouds'];
     windDir = json['current']['wind_dir'];
     gust = json['current']['gust_kph'];
     uv = json['current']['uv'];
