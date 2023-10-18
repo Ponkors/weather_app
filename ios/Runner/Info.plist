@@ -47,5 +47,9 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Это приложение необходимо ваше местоположение, чтобы обеспечить надлежащую функциональность.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Это приложение необходимо ваше местоположение, чтобы обеспечить надлежащую функциональность.</string>
 </dict>
 </plist>

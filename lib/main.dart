@@ -5,7 +5,7 @@ import 'package:weather_app/screens/home_page.dart';
 void main() {
   // Make status bar transparent.
   SystemChrome.setSystemUIOverlayStyle(
-      const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+      const SystemUiOverlayStyle(statusBarColor: Colors.white));
   runApp(const MainApp());
 }
 
@@ -19,7 +19,7 @@ class MainApp extends StatelessWidget {
       theme: ThemeData(
         scaffoldBackgroundColor: const Color(0xff081b25),
       ),
-      home: const MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }
